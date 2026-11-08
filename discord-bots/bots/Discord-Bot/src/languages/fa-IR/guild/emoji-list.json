@@ -1,5 +1,0 @@
-{
-  "DESCRIPTION": "نشان دادن لیست ایموجی های سرور",
-  "USAGE": "emojilist",
-  "MESSAGE": "**{{GUILD}}'s emoji's:**\n{{EMOJIS}}"
-}

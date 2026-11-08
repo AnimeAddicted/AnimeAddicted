@@ -1,3 +1,0 @@
-files:
-  - source: /src/languages/en-US/
-    translation: /src/languages/%locale_with_underscore%/%original_file_name%

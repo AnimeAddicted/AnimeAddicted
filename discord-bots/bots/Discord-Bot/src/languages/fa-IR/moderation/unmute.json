@@ -1,5 +1,0 @@
-{
-  "DESCRIPTION": "آن میوت کردن کاربر.",
-  "USAGE": "unmute <user>",
-  "SUCCESS": "*<@{{USER}}> کاربر با موفقیت آن میوت شد*."
-}

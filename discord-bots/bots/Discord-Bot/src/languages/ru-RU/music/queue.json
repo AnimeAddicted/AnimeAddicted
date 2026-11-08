@@ -1,9 +1,0 @@
-{
-  "DESCRIPTION": "Displays the queue.",
-  "USAGE": "queue [pageNumber]",
-  "EMPTY": "Очередь пуста",
-  "TITLE": "Очередь - {{NAME}}",
-  "NOW_PLAYING": "**Сейчас играет**: [{{NAME}}]({{URI}}) `[{{DURATION}}]` • {{USER}}.\n\n**Следующий**: {{NEXT}}",
-  "PAGE": "Страница {{PAGE}}/{{PAGES}} | {{LENGTH}} {{SONG}} | {{DURATION}} общая продолжительность",
-  "LOADED": "Загруженная очередь"
-}

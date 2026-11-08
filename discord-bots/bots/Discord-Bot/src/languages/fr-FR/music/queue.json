@@ -1,9 +1,0 @@
-{
-  "DESCRIPTION": "Liste les titres en attente.",
-  "USAGE": "queue [Numéro_de_page]",
-  "EMPTY": "File d'attente vide",
-  "TITLE": "File d'attente - {{NAME}}",
-  "NOW_PLAYING": "**Lecture en cours**: [{{NAME}}]({{URI}}) `[{{DURATION}}]` • {{USER}}.\n\n**Suivant**: {{NEXT}}",
-  "PAGE": "Page {{PAGE}}/{{PAGES}} | {{LENGTH}} {{SONG}} | {{DURATION}} durée totale",
-  "LOADED": "File d'attente chargée"
-}

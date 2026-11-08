@@ -1,5 +1,0 @@
-{
-  "DESCRIPTION": "پاک کردن اخطار های کاربر.",
-  "USAGE": "clear-warning <user> [warning number]",
-  "CLEARED": "اخطار ها اپدیت شد برای <@{{MEMBER}}>"
-}

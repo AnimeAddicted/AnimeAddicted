@@ -1,9 +1,0 @@
-{
-  "DESCRIPTION": "Displays the queue.",
-  "USAGE": "queue [pageNumber]",
-  "EMPTY": "Queue is empty",
-  "TITLE": "Queue - {{NAME}}",
-  "NOW_PLAYING": "**Now Playing**: [{{NAME}}]({{URI}}) `[{{DURATION}}]` • {{USER}}.\n\n**Up Next**: {{NEXT}}",
-  "PAGE": "Page {{PAGE}}/{{PAGES}} | {{LENGTH}} {{SONG}} | {{DURATION}} total duration",
-  "LOADED": "Loaded Queue"
-}

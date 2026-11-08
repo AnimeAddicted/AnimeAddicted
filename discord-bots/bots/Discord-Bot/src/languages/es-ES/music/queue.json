@@ -1,9 +1,0 @@
-{
-  "DESCRIPTION": "Displays the queue.",
-  "USAGE": "queue [pageNumber]",
-  "EMPTY": "La cola está vacía.",
-  "TITLE": "Cola - {{NAME}}",
-  "NOW_PLAYING": "**Reproduciendo ahora**: [{{NAME}}]({{URI}}) `[{{DURATION}}]` • {{USER}}.\n\n**A continuación**: {{NEXT}}",
-  "PAGE": "Página {{PAGE}}/{{PAGES}} | {{LENGTH}} {{SONG}} | {{DURATION}} duración total",
-  "LOADED": "Cola cargada"
-}

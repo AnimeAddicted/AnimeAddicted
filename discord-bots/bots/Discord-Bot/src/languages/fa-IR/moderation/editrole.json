@@ -1,5 +1,0 @@
-{
-  "DESCRIPTION": "تغییر اطلاعات رول ها در سرور ",
-  "USAGE": "editrole <role name> <option> <value>",
-  "SUCCESS": "رول با موفقیت ادیت شد."
-}

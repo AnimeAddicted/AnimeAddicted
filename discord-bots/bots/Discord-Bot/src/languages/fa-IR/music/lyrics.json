@@ -1,6 +1,0 @@
-{
-  "DESCRIPTION": "نشان دادن متن موزیک.",
-  "USAGE": "lyrics [song]",
-  "NO_LYRICS": "هیچ متنی پیدا نشود",
-  "FOOTER": "درخواست شده توسط  {{TAG}}"
-}
