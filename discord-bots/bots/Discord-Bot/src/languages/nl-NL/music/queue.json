@@ -1,0 +1,9 @@
+{
+  "DESCRIPTION": "Displays the queue.",
+  "USAGE": "queue [pageNumber]",
+  "EMPTY": "Wachtrij is leeg",
+  "TITLE": "Wachtrij - {{NAME}}",
+  "NOW_PLAYING": "**Nu aan het spelen**: [{{NAME}}]({{URI}}) `[{{DURATION}}]` • {{USER}}.\n\n**Volgende**: {{NEXT}}",
+  "PAGE": "Bladzijde {{PAGE}}/{{PAGES}} | {{LENGTH}} {{SONG}} | {{DURATION}} totale duur",
+  "LOADED": "Geladen wachtrij"
+}

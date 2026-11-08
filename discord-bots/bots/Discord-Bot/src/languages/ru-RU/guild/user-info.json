@@ -1,0 +1,14 @@
+{
+  "DESCRIPTION": "Получите информацию на сервере.",
+  "USAGE": "user-info [user]",
+  "USERNAME": "✍ Имя пользователя",
+  "DISCRIM": "#️⃣ Тэг",
+  "ROBOT": "🤖 Робот",
+  "CREATE": "Создание",
+  "STATUS": "📶 Статус",
+  "ROLE": "🔼 Высшая роль",
+  "JOIN": "Присоеденился",
+  "NICK": "📝 Ник",
+  "ROLES": "Роли",
+  "BOT": "Bot Helpers"
+}
