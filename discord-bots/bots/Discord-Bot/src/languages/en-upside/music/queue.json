@@ -1,0 +1,8 @@
+{
+  "DESCRIPTION": "˙ǝnǝnb ǝɥʇ sʎɐldsᴉp",
+  "USAGE": "queue [ɹǝqɯnNǝƃɐd]",
+  "EMPTY": "ʎʇdɯǝ sᴉ ǝnǝnQ",
+  "NOW_PLAYING": "**ƃuᴉʎɐlԀ ʍoN**: [{{NAME}}]({{URI}}) `[{{DURATION}}]` • {{USER}}.\n\n**ʇxǝN d∩**: {{NEXT}}",
+  "PAGE": "ǝƃɐԀ {{PAGE}}/{{PAGES}} | {{LENGTH}} {{SONG}} | {{DURATION}} lɐʇoʇ uoᴉʇɐɹnp",
+  "LOADED": "ǝnǝnQ pǝpɐo˥"
+}

@@ -2,6 +2,7 @@
 // You normally don't need to edit this; drop bot folders into ./bots instead.
 const fs = require('fs');
 const path = require('path');
+const { spawnSync } = require('child_process');
 
 const BOTS_DIR = path.join(__dirname, 'bots');
 const FALLBACK_ENTRIES = ['index.js', 'bot.js', 'main.js', 'app.js', 'src/index.js', 'src/bot.js', 'dist/index.js'];
@@ -45,5 +46,32 @@ const apps = fs.existsSync(BOTS_DIR)
       })
       .filter(Boolean)
   : [];
+
+// Bots that ship a Lavalink server (Lavalink/Lavalink.jar) for music get it
+// started as its own PM2 app, e.g. "Discord-Bot-lavalink". Needs Java 17+.
+const hasJava = () => {
+  const res = spawnSync('java', ['-version'], { stdio: 'ignore' });
+  return !res.error && res.status === 0;
+};
+let javaChecked;
+for (const app of [...apps]) {
+  const lavalinkDir = path.join(app.cwd, 'Lavalink');
+  if (!fs.existsSync(path.join(lavalinkDir, 'Lavalink.jar'))) continue;
+  if (javaChecked === undefined) javaChecked = hasJava();
+  if (!javaChecked) {
+    console.warn(`[ecosystem] "${app.name}" includes Lavalink, but Java isn't installed. Install Java 17+ to get its music commands working.`);
+    continue;
+  }
+  apps.unshift({
+    name: `${app.name}-lavalink`,
+    cwd: lavalinkDir,
+    script: 'java',
+    args: ['-Xmx512M', '-jar', 'Lavalink.jar'],
+    interpreter: 'none',
+    autorestart: true,
+    exp_backoff_restart_delay: 1000,
+    time: true,
+  });
+}
 
 module.exports = { apps };

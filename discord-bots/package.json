@@ -10,7 +10,7 @@
     "logs": "pm2 logs"
   },
   "engines": {
-    "node": ">=18"
+    "node": ">=22.12.0"
   },
   "dependencies": {
     "pm2": "^5.4.2"
